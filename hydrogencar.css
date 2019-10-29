@@ -1,0 +1,22 @@
+*{
+  background-color: black;
+
+}
+
+.timmy{
+color: #0ff7cd
+
+}
+ .menu-container{
+   display: flex;
+   justify-content: center;
+
+ }
+.menu-item{
+  background-color: white;
+  font-size:50px;
+  flex-grow: 1;
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+}
