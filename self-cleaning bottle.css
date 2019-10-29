@@ -1,0 +1,51 @@
+/* GLOBAL STYLE (Targets Everyting)*/
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+.menu-container{
+  display: flex;
+  justify-content: center;
+  background-color: #faebd7 ;
+
+}
+.menu-item{
+  flex-grow: 1;
+  text-align: center;
+  padding: 20px 0;
+  /* padding: top/bottom left/right */
+}
+
+.undermenu{
+  color:white;
+  text-align: center;
+  width: 100%;
+  height: 800px;
+  background-image: url("https://dlmag.com/wp-content/uploads/2019/10/LARQ-Water-Bottle-Design.jpg");
+}
+.header-container{
+  display: flex;
+
+  padding: 70px 0;
+}
+.left-item{
+  flex-grow: 1;
+}
+.right-item{
+  display: flex;
+  flex-grow: 2;
+  flex-direction: column;
+}
+
+.product-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.product-item{
+  text-align: center;
+  image-orientation:
+  padding: 20px 0;
+  flex-grow: 1;
+}

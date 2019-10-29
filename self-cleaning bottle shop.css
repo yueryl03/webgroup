@@ -1,0 +1,12 @@
+.menu-container{
+  display: flex;
+  justify-content: center;
+  background-color: #faebd7 ;
+
+}
+.menu-item{
+  flex-grow: 1;
+  text-align: center;
+  padding: 20px 0;
+  /* padding: top/bottom left/right */
+}
